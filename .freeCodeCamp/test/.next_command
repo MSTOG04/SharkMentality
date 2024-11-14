@@ -142,3 +142,5 @@ cp courses.csv
 cp corses.csv courses_test.csv
 cp courses.csv courses_test.csv
 ./insert_data.sh
+\c students
+psql --username=freecodecamp --dbname=postgres
