@@ -10,3 +10,5 @@ help type
 type echo
 type read
 type if
+type them
+type then
