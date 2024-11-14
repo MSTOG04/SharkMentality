@@ -132,3 +132,4 @@ chmod +x insert_data.sh
 cat courses_id
 ./insert_data.sh
 ./insert_data.sh
+declare -p IFS
