@@ -13,3 +13,4 @@ type if
 type them
 type then
 type bash
+type psql
