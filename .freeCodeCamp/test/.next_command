@@ -138,3 +138,6 @@ declare -p IFS
 ./insert_data.sh
 help
 help -z
+cp courses.csv
+cp corses.csv courses_test.csv
+cp courses.csv courses_test.csv
