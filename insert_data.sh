@@ -1,9 +1,11 @@
 #!/bin/bash
 
 # Script to insert data from courses.csv and students.csv into students database
+PSQL="psql -X --username=freecodecamp --dbname=students --no-align --tuples-only -c"
 
 cat courses.csv | while IFS="," read MAJOR COURSE
 do
+  PSQL="psql -X --username=freecodecamp --dbname=students --no-align --tuples-only -c"
   # get major_id
 
   # if not found
@@ -21,4 +23,5 @@ do
   # get new course_id
 
   # insert into majors_courses
+
 done
