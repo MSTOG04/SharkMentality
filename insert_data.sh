@@ -8,6 +8,10 @@ do
   
   if [[ $MAJOR != 'major' ]]
   then
+
+    # get major_id
+    MAJOR_ID=$($PSQL "SELECT major_id FROM majors WHERE major='$MAJOR'")
+    
     # if not found
     if [[ -z $MAJOR_ID ]]
     then
