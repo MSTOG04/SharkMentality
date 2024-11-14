@@ -11,12 +11,12 @@ do
   echo $MAJOR_ID
   # if not found
   if [[ -z $MAJOR_ID ]]
-then
-  # insert major
+  then
+    # insert major
+    INSERT_MAJOR_RESULT=$($PSQL "INSERT INTO majors(major) VALUES('$MAJOR')")
+    # get new major_id
 
-  # get new major_id
-
-fi
+  fi
 
   # insert major
 
