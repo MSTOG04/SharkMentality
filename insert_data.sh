@@ -33,13 +33,14 @@ do
     # get course_id
     COURSE_ID=$($PSQL "SELECT course_id FROM courses WHERE course='$COURSE'")
     # if not found
+
     if [[ -z $COURSE_ID ]]
-then
-  # insert course
+    then
+      # insert course
+      INSERT_COURSE_RESULT=$($PSQL "INSERT INTO courses(course) VALUES('$COURSE')")
+      # get new course_id
 
-  # get new course_id
-
-fi
+    fi
     # insert course
 
     # get new course_id
