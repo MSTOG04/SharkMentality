@@ -238,3 +238,4 @@ rm courses_test.csv
 --help pg_dump
 help pg_dump
 pg_dump --help
+pg_dump --clean --create --inserts --username=freecodecamp students > students.sql
