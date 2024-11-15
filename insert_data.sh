@@ -59,5 +59,12 @@ cat students_test.csv | while IFS="," read FIRST LAST MAJOR GPA
 do
   if [[ $FIRST != 'first_name' ]]
   then
+    #get major_id
+    
+    #if not found
+    
+    #set to null
+    
+    #insert student
   fi
 done
