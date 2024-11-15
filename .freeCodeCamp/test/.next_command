@@ -230,3 +230,4 @@ cp students.csv students_test.csv
 \d students
 ./insert_data.sh
 ./insert_data.sh
+ls --color=auto
