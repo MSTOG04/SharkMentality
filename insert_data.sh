@@ -87,8 +87,6 @@ do
       echo "Insert success : $YEAR, $ROUND, $WINNER_ID, $OPPONENT_ID, $WINNER_GOALS, $OPPONENT_GOALS"
     fi
 
-  
-
   fi 
   
 done
