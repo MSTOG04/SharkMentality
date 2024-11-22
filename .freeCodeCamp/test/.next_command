@@ -108,3 +108,8 @@ grep -n 'cat[a-z]*' kitty_ipsum_2.txt
 ouch translate.sh
 touch translate.sh
 chmod +x translate.sh
+./translate.sh
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+/translate.sh kitty_ipsum_1.txt
+./translate.sh kitty_ipsum_1.txt
