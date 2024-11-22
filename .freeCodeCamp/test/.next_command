@@ -35,3 +35,7 @@ __vsc_prompt_cmd_original
 m grep
 man grep
 grep --color 'meow' kitty_ipsum_1.txt
+grep --n 'meow' kitty_ipsum_1.txt
+grep -n 'meow' kitty_ipsum_1.txt
+grep --color 'm -neow' kitty_ipsum_1.txt
+grep --color -n 'meow' kitty_ipsum_1.txt
