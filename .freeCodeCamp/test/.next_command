@@ -12,3 +12,4 @@ __vsc_prompt_cmd_original
 wc -1
 wc -1 kitty_ipsum_1.txt
 wc -l kitty_ipsum_1.txt
+wc -w kitty_ipsum_1.txt
