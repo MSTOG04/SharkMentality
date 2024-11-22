@@ -34,3 +34,4 @@ grep m
 __vsc_prompt_cmd_original
 m grep
 man grep
+grep --color 'meow' kitty_ipsum_1.txt
