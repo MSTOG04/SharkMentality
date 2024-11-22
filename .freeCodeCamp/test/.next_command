@@ -19,3 +19,4 @@ wc kitty_ipsum_1.txt
 cat kitty_ipsum_1.txt
 wc < kitty_ipsum_1.txt
 echo "~~ kitty_ipsum_1.txt info ~~" > kitty_info.txt
+echo -e "\nNumber of lines:" >> kitty_info.txt
