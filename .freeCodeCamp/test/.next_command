@@ -69,3 +69,4 @@ sed 's/freecodecamp/f233C0d3C@mp/i' name.txt
 sed 's/freecodecamp/f233C0d3C@mp/i' < name.txt
 cat name.txt
 grep -n 'meow[a-z]*' kitty_ipsum_1.txt
+grep -n 'meow[a-z]*' kitty_ipsum_1.txt
