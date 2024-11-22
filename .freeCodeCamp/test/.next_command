@@ -29,3 +29,8 @@ cat kitty_ipsum_1.txt
 wc -m < kitty_ipsum_1.txt >> kitty_info.txt
 wc -m < kitty_ipsum_1.txt >> kitty_info.txt
 grep 'meow' kitty_ipsum_1.txt
+grep -m
+grep m
+__vsc_prompt_cmd_original
+m grep
+man grep
