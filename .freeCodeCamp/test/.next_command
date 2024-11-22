@@ -105,3 +105,5 @@ echo -e "\nNumber of times cat, cats, or catnip appears:" >> kitty_info.txt
 grep -o 'cat[a-z]*' kitty_ipsum_2.txt
 echo -e "\nLines that they appear on:" >> kitty_info.txt
 grep -n 'cat[a-z]*' kitty_ipsum_2.txt
+ouch translate.sh
+touch translate.sh
