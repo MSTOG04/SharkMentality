@@ -114,3 +114,6 @@ __vsc_prompt_cmd_original
 /translate.sh kitty_ipsum_1.txt
 ./translate.sh kitty_ipsum_1.txt
 ./translate.sh < kitty_ipsum_1.txt
+kitty_ipsum_1.txt
+cat kitty_ipsum_1.txt
+cat kitty_ipsum_1.txt
