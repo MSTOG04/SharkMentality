@@ -447,3 +447,5 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 psql --username=freecodecamp --dbname=bikes
 ./bike-shop.sh
 SELECT bike-shop.sh FROM rentals
+SELECT bike-shop.sh FROM rentals
+./bike-shop.sh
