@@ -476,3 +476,4 @@ man sed
 __vsc_prompt_cmd_original
 echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
 ./bike-shop.sh
+./bike-shop.sh
