@@ -452,3 +452,4 @@ SELECT bike-shop.sh FROM rentals
 echo '28 | Mountain'
 echo '28 | Mountain'
 echo '28 | Mountain'
+echo '28 | Mountain'
