@@ -353,3 +353,4 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 touch bike-shop.sh
 chmod +x bike-shop.sh
 ./bike-shop.sh
+./bike-shop.sh
