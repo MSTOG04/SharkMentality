@@ -478,3 +478,6 @@ echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
 ./bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
+SELECT bike-shop.sh FROM bikes ORDER BY bike_id
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
