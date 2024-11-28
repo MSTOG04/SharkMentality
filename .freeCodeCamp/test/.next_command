@@ -461,3 +461,4 @@ echo '28 | Mountain'
 echo ' M E '
 echo ' M e '
 echo "$(echo ' M e ')."
+echo "$(echo ' M e ' | sed 's/ //')."
