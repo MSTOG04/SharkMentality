@@ -116,3 +116,4 @@ __vsc_prompt_cmd_original
 __vsc_prompt_cmd_original
 __vsc_prompt_cmd_original
 __vsc_prompt_cmd_original
+pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql
